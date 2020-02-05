@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F9F9;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px
+}
+
+.container {
+width: 100%;
+max-width: 700px;
+margin: 20px auto;
+padding: 30px 0px;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 15px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
+}
+
+.img-avatar-round {
+  width: 150px;
+  height: 150px;
+  margin: auto 0;
+  border-radius: 50%;
+  position: relative;
+  bottom: 10px;
+}
+
+.btn-orange {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: orange;
+  padding: 7px 10px;
+  color: #000;
+  border-radius: 3px;
+  text-decoration: none;
+  float: bottom
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+
+.fab {
+  font-size: 50px;
+  color: grey;
+  margin: 20px;
+}
+
+.fab:hover {
+  color: rgba(0, 0, 0, 0.9)
+}
+
+.fa-bitcoin {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  color: black;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: device-width;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: device-width;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: device-width;
+    margin: 0 auto;
+  }
+}
+
